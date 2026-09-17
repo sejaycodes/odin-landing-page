@@ -4,24 +4,42 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: Roboto, sans-serif;
-}
-
 .header{
     background-color: #1F2937;
     display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.header h3{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: auto;
 }
 
 ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    gap: 20px;
 }
 
 a {
-  text-decoration: none;   
-  border-bottom: none;
+    text-decoration: none;   
+    border-bottom: none;
+  color: #F9FAF8;
+}
+
+.nav-links{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+body{
+    font-family: Roboto, sans-serif;
 }
 
 .main-info-block{
