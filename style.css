@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid rgba(255, 0, 0, 0.5)
 }
 
 .container {
@@ -157,6 +156,43 @@ body{
     font-size: 22px;
 }
 
+.cta{
+    background-color: #3882F6;
+    margin: 5%;
+    padding: 40px 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.cta-h1{
+    font-weight: 900;
+    color: #fff;
+    margin: 0 0 6px 0;
+}
+.cta-subtext{
+    color: #E5E7EB;
+    margin: 0;
+}
+.cta button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 30px;
+    border-radius: 8px;
+}
 .footer{
     background-color: #1F2937;
+}
+.footer-text{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: ;
+}
+.footer p{
+    text-align: center;
+    color: #fff;
 }
