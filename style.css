@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;   
+  border-bottom: none;
+}
+
+.main-info-block{
+    background-color: #1F2937;
+}
+
+.footer{
+    background-color: #1F2937;
+}
